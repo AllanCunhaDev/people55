@@ -21,7 +21,7 @@ import com.people55.testePeople55.testeConfigs.NewsRequestDTO;
 import com.people55.testePeople55.testeConfigs.NewsResponseDTO;
 
 @RestController
-@RequestMapping("/news")
+@RequestMapping("news")
 public class NewsController {
 
     @Autowired
